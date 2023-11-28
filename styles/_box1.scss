@@ -1,0 +1,23 @@
+.box1{
+    
+    h1{  
+        color: rgb(5, 220, 5);
+        font-weight: 900;
+        margin: 20px auto;
+    }
+    button{
+        padding: 30px 30px;
+        background-color: violet;
+        margin: 20px auto;
+
+        &:hover{
+            background-color: gold;
+        }
+    }
+    p{
+        line-height: 1.9px;
+        font-family: monospace;
+        font-size: 14px;
+        margin: 20px auto;
+    }
+}

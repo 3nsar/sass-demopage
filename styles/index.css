@@ -1,0 +1,46 @@
+.box2 h1 {
+  color: rgb(220, 5, 5);
+  font-weight: 900;
+}
+.box2 button {
+  padding: 10px 10px;
+  background-color: rgb(69, 209, 195);
+}
+.box2 p {
+  line-height: 1.2px;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.box1 h1 {
+  color: rgb(5, 220, 5);
+  font-weight: 900;
+  margin: 20px auto;
+}
+.box1 button {
+  padding: 30px 30px;
+  background-color: violet;
+  margin: 20px auto;
+}
+.box1 button:hover {
+  background-color: gold;
+}
+.box1 p {
+  line-height: 1.9px;
+  font-family: monospace;
+  font-size: 14px;
+  margin: 20px auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(13, 0, 242);
+  background: linear-gradient(40deg, rgb(13, 0, 242) 0%, rgb(52, 11, 11) 41%, rgb(255, 0, 199) 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}/*# sourceMappingURL=index.css.map */

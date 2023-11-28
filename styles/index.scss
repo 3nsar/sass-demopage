@@ -1,0 +1,15 @@
+@import "./box2";
+@import "./box1";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(13,0,242);
+    background: linear-gradient(40deg, rgba(13,0,242,1) 0%, rgba(52,11,11,1) 41%, rgba(255,0,199,1) 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
