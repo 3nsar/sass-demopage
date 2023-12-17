@@ -1,17 +1,20 @@
+@import "./global";
+
+
 .box1{
     
     h1{  
-        color: rgb(5, 220, 5);
+        color: $colorGreen;
         font-weight: 900;
         margin: 20px auto;
     }
     button{
         padding: 30px 30px;
-        background-color: violet;
+        background-color: $colorViole;
         margin: 20px auto;
 
         &:hover{
-            background-color: gold;
+            background-color: $colorYellow;
         }
     }
     p{
